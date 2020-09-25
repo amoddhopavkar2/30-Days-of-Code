@@ -33,7 +33,6 @@ class Solution:
                 s.add(current.data)
                 previous = current
             current = current.next
-
         return head
 
 
