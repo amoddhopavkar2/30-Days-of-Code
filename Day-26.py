@@ -14,7 +14,8 @@ def calculate_fine(expected, actual):
 	else:
 		return 10000
 
-actual = list(map(int, input().split()))
-expected = list(map(int, input().split()))
+if __name__ == "__main__":
+	actual = list(map(int, input().split()))
+	expected = list(map(int, input().split()))
 
-print(calculate_fine(expected, actual))
+	print(calculate_fine(expected, actual))
